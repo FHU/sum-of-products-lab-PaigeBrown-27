@@ -6,9 +6,9 @@ def sum_of_products(list1, list2):
         for i in range (0, len(list1) -1):
             list_products.append(list1[i] * list2[i])
         end_num = sum(list_products)
-        print(end_num)
+        return end_num
     else:
-       print("Error")
+       return "Error"
 
 if __name__ == '__main__':
     nl1 = input()
@@ -22,4 +22,4 @@ if __name__ == '__main__':
         num_list2.append(int(nl2[i]))
     #num_list1 = [int(input("Give me a list of numbers: "))]
     #num_list2 = [int(input("Give me a second list of numbers: "))]
-    sum_of_products(num_list1, num_list2)
+    print(sum_of_products(num_list1, num_list2))
