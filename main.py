@@ -16,10 +16,10 @@ if __name__ == '__main__':
     num_list1 = nl1.split(" ")
     num_list2 = nl2.split(" ")
     
-    for i in range (0, len(nl1)):
-        num_list1.append(int(nl1[i]))
-    for i in range (0, len(nl2)):
-        num_list2.append(int(nl2[i]))
+    # for i in range (0, len(nl1)):
+    #     num_list1.append(int(nl1[i]))
+    # for i in range (0, len(nl2)):
+    #     num_list2.append(int(nl2[i]))
     #num_list1 = [int(input("Give me a list of numbers: "))]
     #num_list2 = [int(input("Give me a second list of numbers: "))]
     print(sum_of_products(num_list1, num_list2))
