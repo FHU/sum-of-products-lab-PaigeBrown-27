@@ -3,7 +3,7 @@
 def sum_of_products(list1, list2):
     if len(list1) == len(list2):
         list_products = []
-        for i in range (0, len(list1) -1):
+        for i in range (0, len(list1)):
             list_products.append(int(list1[i]) * int(list2[i]))
         end_num = sum(list_products)
         return end_num
