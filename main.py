@@ -11,10 +11,10 @@ def sum_of_products(list1, list2):
        print("Error")
 
 if __name__ == '__main__':
-    num_list1 = []
-    num_list2 = []
     nl1 = input()
     nl2 = input()
+    num_list1 = nl1.split(" ")
+    num_list2 = nl2.split(" ")
     
     for i in range (0, len(nl1)):
         num_list1.append(int(nl1[i]))
